@@ -1,8 +1,6 @@
 package Day1;
 
-import java.util.Scanner;
-
-public class value_a_i_j {
+public class Value_a_i_j {
     public static void main(String[] args) {
 
 

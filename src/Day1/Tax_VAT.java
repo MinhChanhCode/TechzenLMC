@@ -2,7 +2,7 @@ package Day1;
 
 import java.util.Scanner;
 
-public class tax_VAT {
+public class Tax_VAT {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
