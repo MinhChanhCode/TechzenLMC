@@ -23,7 +23,7 @@ public class Calendar {
 
         System.out.println("Sum is" + sum);
         System.out.println("Different is " + x);
-        System.out.println("Product is" + t1);
+        System.out.println("Multiplication is" + t1);
         System.out.println("Quotient is" + t2);
 
     }
