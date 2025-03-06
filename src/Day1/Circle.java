@@ -8,9 +8,8 @@ public class Circle {
 
         System.out.print("Enter radius: ");
         double r = scanner.nextDouble();
-        scanner.nextLine();
 
-        double C = 2 * 3.14;
+        double C = 2 * 3.14 * r;
         double A = 3.14 * Math.pow(C, 2);
 
         System.out.println("Perimeter is: " + C);
