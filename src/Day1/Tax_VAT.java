@@ -10,14 +10,14 @@ public class Tax_VAT {
         String product = scanner.nextLine();
 
         System.out.print("Enter quantity: ");
-        int quantity = scanner.nextInt();
+        double quantity = scanner.nextDouble();
         scanner.nextLine();
 
         System.out.print("Enter price: ");
-        int price = scanner.nextInt();
+        double price = scanner.nextDouble();
         scanner.nextLine();
 
-        int totalProduct = quantity * price;
+        double totalProduct = quantity * price;
         double taxVAT = totalProduct * 0.1;
 
         System.out.println("Total is: " + totalProduct);
