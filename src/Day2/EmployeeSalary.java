@@ -10,16 +10,16 @@ public class EmployeeSalary {
         int TNCT = scanner.nextInt();
 
         double basicSalary = 650000;
-        double coefficient = 0;
+        double coefficient;
 
 
         if (TNCT < 12) {
             coefficient = 1.92;
-        } else if (12 <= TNCT && TNCT < 36) {
+        } else if (TNCT < 36) {
             coefficient = 2.34;
-        } else if (36 <= TNCT && TNCT < 60) {
+        } else if (TNCT < 60) {
             coefficient = 3;
-        } else if (TNCT >= 60) {
+        } else {
             coefficient = 4.5;
         }
 
