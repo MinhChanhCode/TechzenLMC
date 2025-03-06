@@ -1,6 +1,6 @@
 package Day1;
 
-public class Value_a_i_j {
+public class Variable_a_i_j {
     public static void main(String[] args) {
 
 

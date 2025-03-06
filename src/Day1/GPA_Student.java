@@ -10,13 +10,13 @@ public class GPA_Student {
         String name = scanner.nextLine();
 
         System.out.print("Score Math is: ");
-        int sMath = scanner.nextInt();
+        double sMath = scanner.nextDouble();
 
         System.out.print("Score Physics is: ");
-        int sPhysics = scanner.nextInt();
+        double sPhysics = scanner.nextDouble();
 
         System.out.print("Score Chemistry is: ");
-        int sChemistry = scanner.nextInt();
+        double sChemistry = scanner.nextDouble();
 
         double GPA = (double) (sMath + sMath + sPhysics) / 3;
 
