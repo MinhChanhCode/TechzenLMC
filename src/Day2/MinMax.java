@@ -25,10 +25,10 @@ public class MinMax {
 
         //Use ternary operator
 
-        int number1 = (a > b) ? a : b;
-        int number2 = (a < b) ? a : b;
+        int max = (a > b) ? a : b;
+        int min = (a < b) ? a : b;
 
-        System.out.println("Max: " + number1);
-        System.out.println("Min: " + number2);
+        System.out.println("Max: " + max);
+        System.out.println("Min: " + min);
     }
 }

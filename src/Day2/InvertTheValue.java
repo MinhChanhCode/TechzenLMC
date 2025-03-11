@@ -21,5 +21,13 @@ public class InvertTheValue {
 
         System.out.println("After swap value: a = " + a + ", b = " + b);
 
+
+        //Cách 2:
+        /*
+        a =a+b;
+        b=a-b;
+        a=a-b;
+         */
+
     }
 }

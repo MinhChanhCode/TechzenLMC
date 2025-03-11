@@ -9,7 +9,7 @@ public class EmployeeSalary {
         System.out.print("Nhập thâm niên công tác(TNCT): ");
         int TNCT = scanner.nextInt();
 
-        double basicSalary = 650000;
+        final int basicSalary = 650000;
         double coefficient;
 
 

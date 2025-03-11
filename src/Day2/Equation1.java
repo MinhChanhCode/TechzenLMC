@@ -12,8 +12,6 @@ public class Equation1 {
         System.out.print("Nhập b: ");
         double b = scanner.nextInt();
 
-
-
         if(a == 0){
             if (b==0){
                 System.out.println("Phương trình vô số nghiệm.");

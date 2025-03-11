@@ -17,9 +17,9 @@ public class NumberDays {
             System.out.println("Số ngày trong tháng " + month + " là: 30 ngày");
         } else if (month == 2) {
             if (year % 400 == 0) {
-                System.out.println("Năm " + year + " là năm nhuận.");
+                System.out.println("Năm " + year + " là năm nhuận có 29 ngày.");
             }else {
-                System.out.println("Năm " + year + "là năm không nhuận.");
+                System.out.println("Năm " + year + "là năm không nhuận có 28 ngày.");
             }
         } else {
             System.out.println("Số ngày trong tháng " + month + " là: 31 ngày");
