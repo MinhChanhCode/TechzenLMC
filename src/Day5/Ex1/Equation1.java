@@ -11,9 +11,9 @@ public class Equation1 {
             }
         } else {
             double x = -b / a;
+
             System.out.println("Phương trình có nghiệm là : " + x);
         }
-
     }
 
     public static void main(String[] args) {

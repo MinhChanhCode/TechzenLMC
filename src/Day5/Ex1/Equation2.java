@@ -19,9 +19,11 @@ public class Equation2 {
         if (delta > 0) {
             double x1 = (-b + Math.sqrt(delta)) / (2 * a);
             double x2 = (-b - Math.sqrt(delta)) / (2 * a);
+
             System.out.println("Hai nghiệm phân biệt: x1 = " + x1 + ", x2 = " + x2);
         } else if (delta == 0) {
             double x = -b / (2 * a);
+
             System.out.println("Nghiệm kép: x = " + x);
         } else {
             System.out.println("Phương trình vô nghiệm.");
@@ -35,12 +37,10 @@ public class Equation2 {
             } else {
                 System.out.println("Phương trình vô nghiệm.");
             }
-//            System.out.println(b == 0 ? "Phương trình vô số nghiệm." : "Phương trình vô nghiệm.");
         } else {
             System.out.println("Nghiệm: x = " + (-b / a));
         }
     }
-
 
 }
 
