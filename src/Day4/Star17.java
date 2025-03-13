@@ -40,7 +40,5 @@ public class Star17 {
             }
             System.out.println();
         }
-
-
     }
 }

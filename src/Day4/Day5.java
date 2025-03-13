@@ -13,7 +13,6 @@ public class Day5 {
     }
 
     public static double calculateSum(double a, double b) {
-        double sum = a + b;
-        return sum;
+        return a + b;
     }
 }
