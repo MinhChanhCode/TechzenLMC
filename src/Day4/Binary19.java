@@ -6,6 +6,7 @@ public class Binary19 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Hãy nhập vào bàn phím: ");
+
         int n = scanner.nextInt();
 
         String binary = "";
