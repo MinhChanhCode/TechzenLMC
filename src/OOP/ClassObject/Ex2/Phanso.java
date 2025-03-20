@@ -1,6 +1,4 @@
-package OOP.Ex2;
-
-import com.sun.source.tree.BreakTree;
+package ClassObject.Ex2;
 
 import java.util.Scanner;
 

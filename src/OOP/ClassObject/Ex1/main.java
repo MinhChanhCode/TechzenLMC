@@ -1,4 +1,4 @@
-package OOP.Ex1;
+package ClassObject.Ex1;
 
 public class main {
     public static void main(String[] args) {
