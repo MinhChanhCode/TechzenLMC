@@ -1,4 +1,4 @@
-package ClassObject.Ex2;
+package OOP.ClassObject.Ex2;
 
 import java.util.Scanner;
 

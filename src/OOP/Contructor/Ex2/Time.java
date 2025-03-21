@@ -1,4 +1,4 @@
-package Contructor.Ex2;
+package OOP.Contructor.Ex2;
 
 public class Time {
     private int hour;

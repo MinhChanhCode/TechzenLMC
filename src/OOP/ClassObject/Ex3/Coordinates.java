@@ -1,4 +1,4 @@
-package ClassObject.Ex3;
+package OOP.ClassObject.Ex3;
 
 import java.awt.*;
 import java.util.Scanner;
@@ -18,6 +18,7 @@ public class Coordinates {
     }
 
     double distanceTo(Coordinates other) {
+
         return Math.sqrt(Math.pow(other.x - x, 2) + Math.pow(other.y - y, 2));
     }
 }

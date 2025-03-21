@@ -1,4 +1,4 @@
-package Contructor.Ex3;
+package OOP.Contructor.Ex3;
 
 public class main {
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class main {
         System.out.println("\nUpdate information: ");
         System.out.println("ID: " + student.getId());
         System.out.println("Name: " + student.getName());
-        System.out.println("Score: " + student.getScore());
+        System.out.println("Score: \n" + student.getScore());
 
         student.setName(" ");
         student.setScore(11);

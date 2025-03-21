@@ -1,4 +1,4 @@
-package Contructor.Ex3;
+package OOP.Contructor.Ex3;
 
 public class Student {
     private int id;

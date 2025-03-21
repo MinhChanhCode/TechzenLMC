@@ -1,4 +1,4 @@
-package Contructor.Ex1;
+package OOP.Contructor.Ex1;
 
 public class Phanso {
     private int tuSo;

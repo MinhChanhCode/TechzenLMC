@@ -1,4 +1,4 @@
-package Contructor.Ex1;
+package OOP.Contructor.Ex1;
 
 public class main {
     public static void main(String[] args) {
